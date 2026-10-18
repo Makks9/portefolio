@@ -1,18 +1,9 @@
 :root{
-  --bg:#f6f7f9; --surface:#ffffff; --ink:#121826; --muted:#586174; --line:#dde1e8;
-  --accent:#2b3ed1; --accent-ink:#ffffff; --tag:#eceefb; --tag-ink:#26359f; --ok:#0f7a4d;
-  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
-  --body:"Figtree","Segoe UI",system-ui,-apple-system,sans-serif;
-}
-@media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){
-    --bg:#0f131c; --surface:#171c28; --ink:#eef0f5; --muted:#a0a9bb; --line:#2a3142;
-    --accent:#8e9bff; --accent-ink:#0f131c; --tag:#222a45; --tag-ink:#c3caff; --ok:#5fd6a0;
-  }
-}
-:root[data-theme="dark"]{
+  color-scheme:dark;
   --bg:#0f131c; --surface:#171c28; --ink:#eef0f5; --muted:#a0a9bb; --line:#2a3142;
   --accent:#8e9bff; --accent-ink:#0f131c; --tag:#222a45; --tag-ink:#c3caff; --ok:#5fd6a0;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"Figtree","Segoe UI",system-ui,-apple-system,sans-serif;
 }
 *{box-sizing:border-box}
 html{scroll-padding-top:5rem}
